@@ -2,7 +2,6 @@ package account
 
 import (
 	"context"
-	"errors"
 	"fmt"
 	"log"
 	"net"
@@ -84,7 +83,7 @@ func TestDepositClient_Deposit(t *testing.T) {
 				t.Error("error: expected", tt.res, "received", response)
 			}
 
-			if err != nil && errors.Is(err, tt.err) {
+			if err != nil && err.Error() != tt.err.Error() {
 				t.Error("error: expected", tt.err, "received", err)
 			}
 		})
