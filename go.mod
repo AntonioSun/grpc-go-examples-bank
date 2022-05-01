@@ -1,4 +1,4 @@
-module github.com/bytejedi/grpc_example
+module github.com/AntonioSun/grpc-go-examples-bank
 
 go 1.16
 

@@ -7,7 +7,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	pb "github.com/bytejedi/grpc_example/pkg/proto/bank/account"
+	pb "github.com/AntonioSun/grpc-go-examples-bank/pkg/proto/bank/account"
 )
 
 type DepositServer struct {

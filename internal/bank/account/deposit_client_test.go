@@ -14,7 +14,7 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/grpc/test/bufconn"
 
-	pb "github.com/bytejedi/grpc_example/pkg/proto/bank/account"
+	pb "github.com/AntonioSun/grpc-go-examples-bank/pkg/proto/bank/account"
 )
 
 type mockDepositServer struct {
