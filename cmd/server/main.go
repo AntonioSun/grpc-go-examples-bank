@@ -4,10 +4,10 @@ import (
 	"log"
 	"net"
 
-	"github.com/AntonioSun/grpc-go-examples-bank/internal/bank/account"
+	"grpc-go-examples-bank/internal/bank/account"
 	"google.golang.org/grpc"
 
-	pb "github.com/AntonioSun/grpc-go-examples-bank/pkg/proto/bank/account"
+	pb "grpc-go-examples-bank/pkg/proto/bank/account"
 )
 
 func main() {

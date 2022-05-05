@@ -12,7 +12,7 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/grpc/test/bufconn"
 
-	pb "github.com/AntonioSun/grpc-go-examples-bank/pkg/proto/bank/account"
+	pb "grpc-go-examples-bank/pkg/proto/bank/account"
 )
 
 func dialerS() func(context.Context, string) (net.Conn, error) {

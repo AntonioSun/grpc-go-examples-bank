@@ -1,4 +1,4 @@
-module github.com/AntonioSun/grpc-go-examples-bank
+module grpc-go-examples-bank
 
 go 1.16
 

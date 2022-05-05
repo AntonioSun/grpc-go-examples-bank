@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/AntonioSun/grpc-go-examples-bank/internal/bank/account"
+	"grpc-go-examples-bank/internal/bank/account"
 	"google.golang.org/grpc"
 )
 
